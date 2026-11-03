@@ -6,6 +6,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  creator: "المهندس إسلام الشيخ",
   metadataBase: new URL(SITE_URL),
   title: {
     default: "المتميز للمقاولات والكهرباء | مقاول عام في الرياض",

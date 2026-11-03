@@ -1,3 +1,4 @@
+import { EslamDeveloperSignature } from "./eslam-developer-credit";
 import Link from "next/link";
 import { ArrowUpLeft, MapPin, MessageCircle, Phone, Zap } from "lucide-react";
 import { ADDRESS, MAP_URL, PHONE_DISPLAY, PHONE_TEL, SITE_NAME, WHATSAPP_URL } from "@/lib/site";
@@ -22,6 +23,6 @@ export function SiteFooter() {
         </div>
         <div className="footer-bottom"><p>© {new Date().getFullYear()} {SITE_NAME}</p><p>المصيف · الرياض</p></div>
       </div>
-    </footer>
+    <div className="eslam-credit-slot"><EslamDeveloperSignature /></div></footer>
   );
 }
